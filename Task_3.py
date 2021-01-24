@@ -2,8 +2,8 @@
 
 import string
 
-let1 = input('Please enter your 1st letter: ')
-let2 = input('Please enter your 2nd letter: ')
+let1 = input('Please enter your 1st letter: ').lower()
+let2 = input('Please enter your 2nd letter: ').lower()
 
 symbols = string.ascii_letters
 symb1_ind = (symbols.find(let1) + 1)

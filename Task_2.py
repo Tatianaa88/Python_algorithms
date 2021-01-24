@@ -20,8 +20,8 @@ rand_flt = random.uniform(user_flt1, user_flt2)
 
 print(rand_flt)
 
-user_symb1 = input('Please enter the desired symbol(a,z) as range start')
-user_symb2 = input('Please enter the desired symbol(a,z) as range end')
+user_symb1 = input('Please enter the desired symbol(a,z) as range start').lower()
+user_symb2 = input('Please enter the desired symbol(a,z) as range end').lower()
 
 symbols = string.ascii_letters
 symb1 = symbols.find(user_symb1)
